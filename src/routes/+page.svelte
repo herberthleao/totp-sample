@@ -69,7 +69,9 @@
                     <div>{code}</div>
                 </div>
                 <div class="flex items-center">
-                    <Timer timeLeft={time} />
+                    {#if secretKey}
+                        <Timer timeLeft={time} />
+                    {/if}
                 </div>
             </div>
         </div>
