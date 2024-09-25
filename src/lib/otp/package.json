@@ -1,0 +1,15 @@
+{
+  "name": "omnisec-otp",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "omnisec_otp_bg.wasm",
+    "omnisec_otp.js",
+    "omnisec_otp.d.ts"
+  ],
+  "main": "omnisec_otp.js",
+  "types": "omnisec_otp.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
