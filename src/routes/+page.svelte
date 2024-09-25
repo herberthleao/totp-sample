@@ -32,7 +32,7 @@
 </svelte:head>
 
 <div class="h-screen w-screen bg-zinc-900">
-    <div class="container h-full">
+    <div class="container max-w-4xl h-full">
         <div class="size-full flex flex-col justify-center gap-8">
             <div>
                 <input
